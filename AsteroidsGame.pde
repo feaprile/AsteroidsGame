@@ -19,11 +19,11 @@ public void setup() {
 public void draw() {
   frameRate(90);
   background(0, 0, 0);
-  epic.show();
-  epic.move();
   for (int i = 0; i < nightSky.length; i++) {
     nightSky[i].show();
   }
+  epic.show();
+  epic.move();
   if (aIsPressed == true) {
     epic.turn(-4);
   }
