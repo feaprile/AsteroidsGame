@@ -6,7 +6,7 @@ class Asteroid extends Floater {
 
     rotSpeed = (int)(Math.random()*9)-4;
     
-    myColor = color((int)(Math.random()*255)+110,(int)(Math.random()*255)+50,(int)(Math.random()*255)+150, 80s);
+    myColor = color((int)(Math.random()*255)+110,(int)(Math.random()*255)+50,(int)(Math.random()*255)+150, 80);
     corners = 6;
     int scaleFactor = (int)(Math.random()*6)+2;
     int[] xS = {-7, 3, 9, 2, -7, -11};
